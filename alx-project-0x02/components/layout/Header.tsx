@@ -1,10 +1,13 @@
+import Link from 'next/link';
 
-import React from 'react';
-
-const Header: React.FC = () => {
+const Header = () => {
   return (
-    <header className="bg-gray-600 text-white p-4">
-      <h1 className="text-xl font-bold">ALX Next.js Project</h1>
+    <header className="bg-gray-900 text-white p-4">
+      <nav className="flex gap-4">
+        <Link href="/">Home</Link>
+        <Link href="/home">/home</Link>
+        <Link href="/about">/about</Link>
+      </nav>
     </header>
   );
 };
