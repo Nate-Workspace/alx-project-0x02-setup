@@ -1,7 +1,7 @@
 // pages/home.tsx
 import React, { useState } from 'react';
-import Card from '../components/common/Card';
-import PostModal from '../components/common/PostModal';
+import Card from '@/components/common/Card';
+import PostModal from '@/components/common/PostModal';
 import Header from '@/components/layout/Header';
 
 const HomePage: React.FC = () => {
